@@ -1,0 +1,26 @@
+
+@use 'abstracts/variables' as v;
+@use 'abstracts/functions' as f;
+@use 'abstracts/mixins' as m;
+@use 'abstracts/placeholders' as p;
+@use 'base/animations' as an;
+@use 'base/reset' as re;
+@use 'base/typography' as ty;
+@use 'components/buttons' as butt;
+@use 'layout/footer' as footer;
+@use 'layout/forms' as form;
+@use 'layout/grid' as grid;
+@use 'layout/header' as header;
+@use 'layout/navbar' as navbar;
+@use 'layout/sidebar' as sidebar;
+@use 'pages/home' as home;
+
+
+
+
+
+body {
+    font-family: v.$font-primary;
+    background-color: #f5f5f5;
+    margin: 0;
+  }
