@@ -1,10 +1,10 @@
-import { defineConfig } from 'vite'
+import { defineConfig } from 'vite';
 
 export default defineConfig({
-  base: '/clases-html/', // Esto asegura que las rutas sean relativas, útil cuando despliegas a subcarpetas
+  base: '/clases-html/', // Asegúrate de que las rutas sean relativas
   resolve: {
     alias: {
       '@': '/src', // Esto permite usar '@' como alias para acceder a la carpeta src
     },
-  },
-})
+  }
+});

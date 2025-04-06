@@ -1,0 +1,60 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.class_header {
+  background-color: #000000;
+  padding: 2rem;
+  display: flex;
+  gap: 2rem;
+}
+.class_header .logo {
+  width: 60px;
+  height: auto;
+}
+.class_header .h1_header {
+  color: white;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.main {
+  padding: 2rem;
+}
+.main .clases {
+  margin-bottom: 2rem;
+  padding: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #fff;
+}
+.main .clases h2 {
+  font-size: 1.4rem;
+  color: #000000;
+}
+.main .clases p {
+  margin-top: 0.5rem;
+}
+.main .clases .btn {
+  display: inline-block;
+  margin-top: 0.8rem;
+  background-color: grey;
+  color: white;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+.main .clases .btn:hover {
+  background-color: #000000;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #f5f5f5;
+  margin: 0;
+}
+
+/*# sourceMappingURL=style.css.map */
